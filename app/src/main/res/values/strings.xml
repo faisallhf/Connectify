@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">connectify</string>
+    <string name="text1">Made by FAISAL KHAN</string>
+    <string name="todo">TODO</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="step1">1</string>
+    <string name="step2">2</string>
+    <string name="step3">3</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="mobile">Mobile</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="otp">OTP</string>
+    <string name="next">NEXT</string>
+    <string name="resend_otp_in_30_sec">Resend OTP in 30 sec</string>
+    <string name="enter_user_name">Enter User Name</string>
+    <string name="username">Username</string>
+    <string name="connectify">Connectify</string>
+    <string name="chats">Chats</string>
+    <string name="profile">Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="chat_screen">Chat Screen</string>
+    <string name="profile_screen">Profile Screen</string>
+    <string name="search">Search</string>
+    <string name="user_name">User Name</string>
+    <string name="write_message_here">Write message here</string>
+</resources>
