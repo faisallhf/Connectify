@@ -7,8 +7,6 @@ public class UserModel {
     private String username;
     private Timestamp createdTimestamp;
     private String userId;
-    private String fcmToken;
-
     public UserModel() {
     }
 
@@ -51,11 +49,4 @@ public class UserModel {
         this.userId = userId;
     }
 
-    public String getFcmToken() {
-        return fcmToken;
-    }
-
-    public void setFcmToken(String fcmToken) {
-        this.fcmToken = fcmToken;
-    }
 }
