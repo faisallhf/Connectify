@@ -11,7 +11,6 @@
         android:layout_centerInParent="true"
         android:background="@drawable/circular_bg"
         android:backgroundTint="@color/off_white"
-        app:tint="@color/light_gray"
         android:src="@drawable/icon_person" />
 
 
