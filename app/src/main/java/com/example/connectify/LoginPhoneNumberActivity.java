@@ -17,6 +17,7 @@ public class LoginPhoneNumberActivity extends AppCompatActivity {
     EditText phoneInput;
     Button sendOtpBtn;
     ProgressBar progressBar;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,7 +33,7 @@ public class LoginPhoneNumberActivity extends AppCompatActivity {
         countryCodePicker.registerCarrierNumberEditText(phoneInput);
         sendOtpBtn.setOnClickListener((v)->{
             if(!countryCodePicker.isValidFullNumber()){
-                phoneInput.setError("Phone Number Not Valid");
+                phoneInput.setError("Phone number not valid");
                 return;
             }
             Intent intent = new Intent(LoginPhoneNumberActivity.this,LoginOtpActivity.class);

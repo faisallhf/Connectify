@@ -1,19 +1,16 @@
 package com.example.connectify;
 
 import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
 
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-
 import com.example.connectify.adapter.RecentChatRecyclerAdapter;
-import com.example.connectify.adapter.SearchUserRecyclerAdapter;
 import com.example.connectify.model.ChatroomModel;
-import com.example.connectify.model.UserModel;
 import com.example.connectify.utils.FirebaseUtil;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
 import com.google.firebase.firestore.Query;

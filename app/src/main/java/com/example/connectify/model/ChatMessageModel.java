@@ -40,3 +40,4 @@ public class ChatMessageModel {
         this.timestamp = timestamp;
     }
 }
+

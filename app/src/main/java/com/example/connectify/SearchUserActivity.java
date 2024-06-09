@@ -1,20 +1,17 @@
 package com.example.connectify;
 
+import android.os.Bundle;
+import android.widget.EditText;
+import android.widget.ImageButton;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
-import android.os.Bundle;
-import android.util.Log;
-import android.widget.EditText;
-import android.widget.ImageButton;
 
 import com.example.connectify.adapter.SearchUserRecyclerAdapter;
 import com.example.connectify.model.UserModel;
 import com.example.connectify.utils.FirebaseUtil;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
-import com.google.firebase.Firebase;
-import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.Query;
 
 public class SearchUserActivity extends AppCompatActivity {
@@ -23,7 +20,6 @@ public class SearchUserActivity extends AppCompatActivity {
     ImageButton searchButton;
     ImageButton backButton;
     RecyclerView recyclerView;
-
     SearchUserRecyclerAdapter adapter;
 
     @Override

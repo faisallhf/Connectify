@@ -11,6 +11,7 @@ import com.bumptech.glide.request.RequestOptions;
 import com.example.connectify.model.UserModel;
 
 public class AndroidUtil {
+
     public static  void showToast(Context context,String message){
         Toast.makeText(context,message,Toast.LENGTH_LONG).show();
     }
@@ -19,14 +20,16 @@ public class AndroidUtil {
         intent.putExtra("username",model.getUsername());
         intent.putExtra("phone",model.getPhone());
         intent.putExtra("userId",model.getUserId());
+        intent.putExtra("fcmToken",model.getFcmToken());
+
     }
 
     public static UserModel getUserModelFromIntent(Intent intent){
-        UserModel userModel;
-        userModel = new UserModel();
+        UserModel userModel = new UserModel();
         userModel.setUsername(intent.getStringExtra("username"));
         userModel.setPhone(intent.getStringExtra("phone"));
         userModel.setUserId(intent.getStringExtra("userId"));
+        userModel.setFcmToken(intent.getStringExtra("fcmToken"));
         return userModel;
     }
 

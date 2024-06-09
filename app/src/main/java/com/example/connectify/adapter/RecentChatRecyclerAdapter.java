@@ -1,6 +1,5 @@
 package com.example.connectify.adapter;
 
-import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
@@ -21,7 +20,6 @@ import com.example.connectify.utils.AndroidUtil;
 import com.example.connectify.utils.FirebaseUtil;
 import com.firebase.ui.firestore.FirestoreRecyclerAdapter;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
-import org.w3c.dom.Text;
 
 public class RecentChatRecyclerAdapter  extends FirestoreRecyclerAdapter<ChatroomModel,RecentChatRecyclerAdapter.ChatroomModelViewHolder> {
     Context context;
